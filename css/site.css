@@ -132,7 +132,7 @@ body {
 
     .rlt {
         position: relative;
-        bottom: 100px;
+        bottom: 150px;
         text-align: center;
     }
 
@@ -167,7 +167,7 @@ body {
 
     .footer {
         position: relative;
-        bottom: 150px;
+        bottom: 100px;
     }
 }
 

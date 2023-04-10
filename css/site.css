@@ -130,6 +130,12 @@ body {
         background-image: url(/img/R-Logo_992.png);
     }
 
+    .rlt {
+        position: relative;
+        bottom: 100px;
+        text-align: center;
+    }
+
     .rlt h1 {
         font-size: 3rem;
         line-height: 2.5rem;
@@ -139,6 +145,7 @@ body {
         font-size: 2rem;
         line-height: 1.5rem;
         letter-spacing: .01rem;
+        position: relative;
     }
 
     nav {
@@ -159,10 +166,8 @@ body {
     }
 
     .footer {
-        flex-shrink: 0;
-        text-align: center;
         position: relative;
-        top: 0px;       
+        top: 300px;
     }
 }
 

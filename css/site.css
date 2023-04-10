@@ -142,7 +142,7 @@ body {
 @media (min-width: 768px) {
     body {
         background-image: url(/img/R-Logo_992.png);
-        background-position: top center;;
+        background-position: top center;
         background-size: cover;
     }
 

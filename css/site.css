@@ -130,11 +130,7 @@ body {
         background-image: url(/img/R-Logo_992.png);
     }
 
-    .rlt {
-        position: relative;
-        bottom: 150px;
-        text-align: center;
-    }
+
 
     .rlt h1 {
         font-size: 3rem;

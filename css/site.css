@@ -157,6 +157,13 @@ body {
     height: 40px;
     line-height: 2.0rem;
     }
+
+    .footer {
+        flex-shrink: 0;
+        text-align: center;
+        position: relative;
+        top: 0px;       
+    }
 }
 
 /*  Large devices (desktops, 992px and up) */

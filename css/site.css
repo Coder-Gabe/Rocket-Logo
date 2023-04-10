@@ -1,22 +1,41 @@
+/*  
+
+    cf = coder foundry
+    gh = gabriel hernandez
+    rlt = rocket logo text
+
+*/
+
+
+
+
 :root {
     --cf-dark: #212121;
     --cf-light: #ebebeb;
     --cf-darkblue: #00223d;
     --cf-highlight: #fae100;
+    --gh-body-font: 'Roboto', sans-serif;
+    --gh-title-font: 'Racing Sans One', sans-serif;
+    --gh-subtitle-font: 'Fira Sans', sans-serif;
 }
 
 
 html,
 body {
     height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav,
+footer {
+    color: var(--cf-light);
 }
 
 body {
     display: flex;
     flex-direction: column;
-    background-image: url("/img/LandingPage_1920.png");
-    background-position: top right;
     background-repeat: no-repeat;
+    background-color: var(--cf-darkblue);
 }
 
 .content {
@@ -25,4 +44,204 @@ body {
 
 .footer {
     flex-shrink: 0;
+    text-align: center;
+    position: relative;
+    top: 350px;
 }
+
+
+
+footer {
+    color: #ebebeb;
+    
+}
+
+/*  MAIN AREA */
+main .textInfo {
+    color: var(--cf-light);
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+}
+
+.rlt h1 {
+    font-family: var(--gh-title-font);
+    text-transform: uppercase;
+}
+
+.rlt p {
+    font-family: var(--gh-subtitle-font);
+    text-transform: uppercase;
+}
+
+/* END MAIN AREA */
+
+
+ /* -- MEDIA QUERIES -- */
+/* x-small devices (portrait phones, less than 576px) */
+
+body {
+    background-image: url(/img/R-Logo_576.png);
+    background-position: top center;
+}
+
+.rlt h1 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.rlt p {
+    font-size: 1rem;
+    line-height: .5rem;
+    letter-spacing: .01rem;
+}
+
+.rlt .btn {
+    font-weight: 450;
+    text-transform: uppercase;
+}
+
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    body {
+        background-image: url(/img/R-Logo_768.png);
+    }
+
+    .rlt h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .rlt p {
+        font-size: 1.4rem;
+        line-height: 1rem;
+        letter-spacing: .07rem;
+    }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        background-image: url(/img/R-Logo_992.png);
+    }
+
+    .rlt h1 {
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+
+    .rlt p {
+        font-size: 2rem;
+        line-height: 1.5rem;
+        letter-spacing: .01rem;
+    }
+
+    nav {
+
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .rlt .btn {
+    font-weight: 650;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    line-height: 2.0rem;
+    }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        background-image: url(/img/R-Logo_1200.png);
+    
+    }
+
+  nav {
+
+        font-size: 2rem;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+     .rlt h1 {
+        font-size: 5.5rem;
+        line-height: 3rem;
+    }
+
+    .rlt p {
+        font-size: 2.5rem;
+        line-height: 1.7rem;
+        letter-spacing: .01rem;
+    }
+
+    .rlt .btn {
+
+    font-weight: 850;
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+    line-height: 2.5rem;
+    }
+
+    .footer {
+        flex-shrink: 0;
+        text-align: center;
+        position: relative;
+        top: 0px;       
+    }
+}
+
+/* x-large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        background-image: url(/img/R-Logo_1400.png);
+        background-position: center right;
+        background-size: cover;
+    }
+
+     main .textInfo {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        top: 0px;
+    }
+
+    nav {
+
+        font-size: 3rem;
+    }
+
+    .navbar-brand {
+        font-size: 3rem;
+    }
+
+    .rlt .btn {
+    font-weight: 850;
+    text-transform: uppercase;
+    width: 225px;
+    height: 60px;
+    line-height: 2.5rem;
+    } 
+    
+    .footer {
+        flex-shrink: 0;
+        text-align: center;
+        position: relative;
+        top: 0px;       
+    }
+}
+
+
+/* ----- END MEDIA QUERIES ----- */

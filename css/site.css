@@ -167,7 +167,7 @@ body {
 
     .footer {
         position: relative;
-        top: 300px;
+        bottom: 50px;
     }
 }
 

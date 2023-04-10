@@ -83,25 +83,33 @@ main .textInfo {
  /* -- MEDIA QUERIES -- */
 /* x-small devices (portrait phones, less than 576px) */
 
+@media (min-width: 376px) {
+
 body {
     background-image: url(/img/R-Logo_576.png);
     background-position: top center;
 }
 
-.rlt h1 {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    .rlt {
+        text-align: center;
+    }
+
+    .rlt h1 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .rlt p {
+        font-size: 1rem;
+        line-height: .5rem;
+        letter-spacing: .01rem;
 }
 
-.rlt p {
-    font-size: 1rem;
-    line-height: .5rem;
-    letter-spacing: .01rem;
+    .rlt .btn {
+        font-weight: 450;
+        text-transform: uppercase;
 }
 
-.rlt .btn {
-    font-weight: 450;
-    text-transform: uppercase;
 }
 
 
@@ -112,6 +120,10 @@ body {
         background-image: url(/img/R-Logo_768.png);
         background-position: top center;
         background-size: cover;
+    }
+
+    .rlt {
+        text-align: center;
     }
 
     .rlt h1 {
@@ -136,6 +148,8 @@ body {
 
     .rlt {
         padding: 100px;
+        text-align: center;
+    
     }
 
     .rlt h1 {

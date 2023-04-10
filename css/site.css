@@ -110,6 +110,8 @@ body {
 @media (min-width: 576px) {
     body {
         background-image: url(/img/R-Logo_768.png);
+        background-position: top center;
+        background-size: cover;
     }
 
     .rlt h1 {
@@ -128,6 +130,8 @@ body {
 @media (min-width: 768px) {
     body {
         background-image: url(/img/R-Logo_992.png);
+        background-position: top center;;
+        background-size: cover;
     }
 
 
@@ -161,17 +165,15 @@ body {
     line-height: 2.0rem;
     }
 
-    .footer {
-        position: relative;
-        bottom: 100px;
-    }
+  
 }
 
 /*  Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     body {
         background-image: url(/img/R-Logo_1200.png);
-    
+        background-position: center right;
+        background-size: cover;
     }
 
   nav {
@@ -203,12 +205,7 @@ body {
     line-height: 2.5rem;
     }
 
-    .footer {
-        flex-shrink: 0;
-        text-align: center;
-        position: relative;
-        top: 0px;       
-    }
+   
 }
 
 /* x-large devices (large desktops, 1200px and up) */

@@ -134,7 +134,9 @@ body {
         background-size: cover;
     }
 
-
+    .rlt {
+        padding: 100px;
+    }
 
     .rlt h1 {
         font-size: 3rem;
